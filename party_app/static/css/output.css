@@ -1,0 +1,22 @@
+/*! tailwindcss v4.0.12 | MIT License | https://tailwindcss.com */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap') @import "tailwindcss";
+:root, :host {
+  --color-custom-powder-light: #eee2dc;
+  --color-custom-blue: #123c69;
+  --color-custom-blue-light: #3a6aa4;
+}
+@layer components {
+  .btn-default {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    background-color: var(--color-custom-blue);
+    color: var(--color-custom-powder-light);
+  }
+  .btn-default:hover {
+    background-color: var(--color-custom-blue-light);
+  }
+}
